@@ -88,7 +88,8 @@ ga('send', 'pageview');
 			<ul>
 			    <li><a href="{{SITEURL}}/">Home</a></li>
 			    {%if DISPLAY_PAGES_ON_MENU %}
-			    {% for page in PAGES %}
+<!-- 			    {% for page in PAGES %} -->
+			    {% for page in pages %}
 			    <li><a href="{{SITEURL}}/{{page.url}}">{{page.title}}</a></li>
 			    {%endfor%}
 			    {%endif%}
