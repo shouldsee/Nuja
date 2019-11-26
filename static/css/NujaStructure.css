@@ -44,7 +44,7 @@ layouts: layout-wt
 .entry-container {
   font: normal 1.25em/1.575em 'Vollkorn', Georgia, serif;
   background: #ffffff;
-  padding: 25px;
+  padding: 10px;
   color: #3c3c3c;
   border: 1px solid #c5c5c5;
   text-rendering: optimizeElegibility;
@@ -81,7 +81,7 @@ layouts: layout-wt
   border: none;
 }
 .entry-container p {
-  margin-bottom: 1.1em;
+  margin-bottom: 0.0em;
 }
 .entry-container article img {
   padding: 15px 0 15px 0;
@@ -137,7 +137,7 @@ layouts: layout-wt
   text-decoration: none;
 }
 .entry-container .entry {
-  margin-bottom: 35px;
+  margin-bottom: -10px;
 }
 .entry-date {
   text-align: center;
