@@ -35,7 +35,7 @@
 			    Tags: 
 			    {% for tag in article.tags %} <a href="{{SITEURL}}/{{tag.url}}" title="Browse tag: {{tag}}" rel="tag">{{tag}}</a>{%if not loop.last %}, {%endif%}{% endfor %}
 		    {% endif %}
-		    <br> Last Update: {{page.date|strftime('%B %d, %Y')}}
+		    <br> Last Update: {{article.date|strftime('%B %d, %Y')}}
  		</div>
 		</header>
 		<div class="entry-content">
