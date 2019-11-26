@@ -44,7 +44,7 @@ layouts: layout-wt
 .entry-container {
   font: normal 1.25em/1.575em 'Vollkorn', Georgia, serif;
   background: #ffffff;
-  padding: 10px;
+  padding: 25px;
   color: #3c3c3c;
   border: 1px solid #c5c5c5;
   text-rendering: optimizeElegibility;
