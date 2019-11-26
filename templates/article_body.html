@@ -1,6 +1,7 @@
 <div class="row">
-{%if articles_page %}
-{# {%if True %} #}
+{# {%if articles_page %} #}
+	
+{%if True %}
     <div class="span1 metadata alpha">
 {# Entry Date #}
 	<aside>
@@ -16,9 +17,10 @@
 
 	</aside> 
 {# End of Date #}
-
     </div>
-    {%endif%}
+{%endif%}
+	
+	
     <div class="{%if articles_page%}span7{%else%}span9 alpha{%endif%}">
 	<div class="entry-container ">
 
@@ -32,7 +34,12 @@
 		    </div>
 		</header>
 		<div class="entry-content">
-		{{ article.content }} </div>
+                {%if articles_page %}
+		{{ article.summary }}
+		{% else %}
+		{{ article.content }}
+		{% endif %}
+		 </div>
 	    </article>
 
 	    <!--
